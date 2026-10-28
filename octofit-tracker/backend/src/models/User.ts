@@ -7,4 +7,5 @@ const userSchema = new Schema({
   fitnessGoal: { type: String, required: true, trim: true },
 });
 
+
 export const User = model('User', userSchema);
